@@ -19,3 +19,104 @@ body {
   background-color: #eee;
   color: #333;
 }
+
+.kassi{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.texti {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.container-login{
+  padding: 20px;
+  margin-top: 20%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1em;
+  padding-bottom: 12em;
+}
+
+.container-thanks{
+  margin-top: 30%;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1em;
+  padding-bottom: 14em;
+}
+
+.takki {
+    margin-top: 1em;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.kassi-rangt{
+  background-color: #ff4d4d;
+  margin-top: 1em;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  float: left;
+}
+
+.takki:hover {
+    background-color: grey;
+}
+
+.info {
+    padding: 20px;
+    margin-top: 10%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 1em;
+    padding-bottom: 8em;
+}
+
+.col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+    margin-left: 35%;
+}
+
+.villur {
+    margin-top: 1em;
+    margin-left:40%;
+    margin-bottom: 2em;
+}
+
+.col-75 {
+    border: 1px solid #000;
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    margin-right: 30%;
+}
+
+.control{
+  padding: 0em 1em;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75 {
+        width: 100%;
+        margin-top: 0;
+    }
+}

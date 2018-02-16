@@ -96,13 +96,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/login', (req, res) => {
-  res.send(`
-    <form method="post" action="/login">
-      <label>Notendanafn: <input type="text" name="username"></label>
-      <label>Lykilorð: <input type="password" name="password"></label>
-      <button>Innskrá</button>
-    </form>
-  `);
+  res.render('thanks', {});
 });
 
 app.post(

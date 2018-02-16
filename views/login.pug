@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .container-login
+    form(method="post" action="/login")
+      .row
+        .col-25
+          label(class= "texti") Notendanafn:
+        .col-75
+          input( class="kassi" type="text" name="username")
+      .row
+        .col-25
+          label(class= "texti") Lykilorð:
+        .col-75
+          input(class="kassi" type="password" name="password")
+      .row
+        .col-25
+          button(class="takki") Innskrá
+
+  .control
+    a(href="/") Forsíða
